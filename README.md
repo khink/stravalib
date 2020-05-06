@@ -59,8 +59,11 @@ to-do list.
 
 ### Authentication
 
-In order to make use of this library, you will need to have access keys for one or more Strava users. This
-effectively requires you to run a webserver; this is outside the scope of this library, but stravalib does provide helper methods to make it easier.
+In order to make use of this library, you will need to have access keys for one or more Strava users.
+Register your app on https://www.strava.com/settings/api to get a token manually, and get started.
+
+Automatically getting a token and refreshing it after expiry requires you to run a webserver.
+This is outside the scope of this library, but stravalib does provide helper methods to make it easier.
 
 ```python
 from stravalib.client import Client
